@@ -1,3 +1,61 @@
+Package: com.ixmoe.1pwn.veteris
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync, moe.yzu.veterishelper
+Filename: debs/com.ixmoe.1pwn.veteris_2.1.1_iphoneos-arm.deb
+Size: 1950188
+MD5sum: d77a605e3bf868e48417e8d781169b36
+SHA1: d2be5ea86c45f5c493a82518b99cbdd610f76335
+SHA256: 0e8ebc00adf69ae8906bbe65bad6d918fd9b02dc17c0b675e87cf5694132b730
+Section: Utilities
+Homepage: http://1pwn.ixmoe.com/
+Description: A Client for the Veteris Server.
+Author: Electimon <electimon@gmail.com>
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+Name: Veteris
+
+Package: dev.preloading.tubereplacer
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Preloading <me@preloading.dev>
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 10.0)
+Conflicts: bag.xml.tuberepair
+Filename: debs/dev.preloading.tubereplacer_1.0.0_iphoneos-arm.deb
+Size: 200252
+MD5sum: 94d8ae18fb46af8bb2672feec2d42863
+SHA1: f79d5dfe0db3826028f905403ed178cc9700644b
+SHA256: b95ddf09e3cca658711bc48e5feea50f8026cd0f11be11cbc1c43a5d5058c45e
+Section: Tweaks
+Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Description: A fix for YouTube with sign-in.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
+Name: TubeReplacer
+
+Package: vn.gsm.auxo.org
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 2127
+Depends: gsmicon, firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Conflicts: vn.gsm.auxo
+Filename: debs/vn.gsm.auxo.org_1.4-2_iphoneos-arm.deb
+Size: 878
+MD5sum: e20f44c5048bfda48e1a714e49008ab5
+SHA1: c6b517bcebc6e1fba69346ed397fc86594bf7feb
+SHA256: 7b1b6da09e347f8678415e784264ae8435695507a9b20e067432412619b7ae25
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: A fantastic re-imagined multitasking bar!
+Author: A3tweaks
+Depiction: http://cydia.gsm.vn/t4264/
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo (Original)
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vn.gsm.videopane
 Version: 2.0.6k
 Architecture: iphoneos-arm
