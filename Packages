@@ -289,6 +289,21 @@ Description: remove ads in Youtube app
 Author: Linus Yang
 Name: YoutubeNoAd
 
+Package: com.lukezgd.kdfubundles
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: org.tihmstar.kdfuapp
+Filename: debs/com.lukezgd.kdfubundles_1.0.1_iphoneos-arm.deb
+Size: 10724
+MD5sum: a377d45f5231e6506b90e2e9aefc3d2d
+SHA1: 09d20f50bf41dbc5b177211d1a00d23704da4ca8
+SHA256: e9f9cd827628f606510c8645d2aa25f695b08b629d7e06998639b55a414b6fef
+Section: System
+Description: More device support for kDFUApp
+Author: LukeZGD
+Name: kDFUApp Bundles
+
 Package: com.officialscheduler.mterminal
 Version: 1.4-5
 Architecture: iphoneos-arm
