@@ -572,6 +572,23 @@ Author: TomKids Rebuild
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified (TomKids)
 
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: debs/uk.invoxiplaygames.checkmatestore_1.2_iphoneos-arm.deb
+Size: 8412
+MD5sum: 1d357394263dba78465037afc9407b30
+SHA1: 61e7d891032b62d49cbaeb68357a7eb26dc9b48d
+SHA256: d9500de23b20ec0bc215d6d2e4077aa7ba3c5a0177a833f6ba00688340253341
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
 Package: vn.gsm.auxo.org
 Version: 1.4-2
 Architecture: iphoneos-arm
