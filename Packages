@@ -22,6 +22,26 @@ Icon: file:///Library/PreferenceBundles/LunarCalendar.bundle/LunarCalendar@2x.pn
 Name: Lunar Calendar for Notification Center
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.dba-tech.forecast
+Version: 2.0.2-12
+Architecture: iphoneos-arm
+Maintainer: dba Technologies, LLC <support@dba-technologies.com>
+Depends: mobilesubstrate, com.arichardson.weepreferenceloader, firmware (>= 5.0)
+Conflicts: com.ashman.clockhide, gsc.ipad
+Filename: debs/com.dba-tech.forecast_2.0.2-12_iphoneos-arm.deb
+Size: 23108
+MD5sum: 5b01a999f795d60ea23bb9ebdde90716
+SHA1: 0a373efc0fa7877c7f667054d28e2ea34543ecdf
+SHA256: b178f4b588cb97e6d0f9c4691474f851e9ad6f6a2074af5665d856f2559be59a
+Section: Tweaks
+Priority: extra
+Homepage: http://modmyi.com/info/forecast.php
+Description: Replaces the standard lock clock with the native iOS5 weather widget.
+Tag: cydia::commercial
+Author: dba Technologies, LLC <support@dba-technologies.com>
+Depiction: http://modmyi.com/info/forecast.d.php
+Name: Forecast
+
 Package: com.hackyouriphone.classiclockscreen
 Version: 3.3.1k
 Architecture: iphoneos-arm
