@@ -1,3 +1,24 @@
+Package: ai.akemi.appsyncunified
+Version: 110.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/nodelete-ai.akemi.appsyncunified.deb
+Size: 58440
+MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
+SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
+SHA256: fa97d20ecaab914c7d07fc17ff2f31c15d34b33a5eebc158cb2c83e8a7ec2abc
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
 Package: com.autopear.lunarcalendar
 Version: 1.8-2
 Architecture: iphoneos-arm
@@ -21,6 +42,23 @@ Dev: lonelystars
 Icon: file:///Library/PreferenceBundles/LunarCalendar.bundle/LunarCalendar@2x.png
 Name: Lunar Calendar for Notification Center
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.hackyouriphone.classiclockscreen
+Version: 3.3.1k
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
+Filename: debs/org.coolstar.classiclockscreen_3.3.1_iphoneos-arm.deb
+Size: 736186
+MD5sum: 7d5da71444883fec6d4273860d981ca3
+SHA1: 3959241070d7b0a0cd41b21a733aaa70351962e1
+SHA256: 225d085f3b8af7bd9b3f1b479efa56c9804c87e7afa322689dc676ffe83ff2ef
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
+Description: Hate the iOS 7 Lock Screen?
+Author: CoolStar, Jeremy Goulet, Phillip Tennen <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
+Name: ClassicLockScreen
 
 Package: com.ijinshan.kbatterydoctorpro.universal
 Version: 4.6.1-11
@@ -169,6 +207,40 @@ Description: Disables YouTube update prompts
 Author: Patrick_Griffin
 Name: DisableYouTubeUpdates
 
+Package: com.pmbonneau.iOS5Bootstrap
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Pierre-Marc Bonneau <pierremarc_999@hotmail.com>
+Installed-Size: 364 Ko
+Filename: debs/com.pmbonneau.ios5bootstrap_1.0_iphoneos-arm.deb
+Size: 98706
+MD5sum: d5c593cc7362a2d5de24319156ddd9ea
+SHA1: 9c5bae87c3c9ddf7a9a561207e8079efdfce6df6
+SHA256: 8e90f5e1d942ef3f4453e892b305d9dc5555e02e0dde71719963954d6eaabf60
+Section: Applications
+Homepage: http://www.pmbonneau.com
+Description: A kloader bootstrap application with an iOS 5 icon. It executes a bash script "iOS5Bootstrap.sh" located in the /usr/bin folder. This script can be edited.
+Author: Pierre-Marc Bonneau <pierremarc_999@hotmail.com>
+Icon: file:///Applications/iOS5Bootstrap.app/AppIcon60x60.png
+Name: iOS 5 Bootstrap
+
+Package: com.pmbonneau.iOS6Bootstrap
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Pierre-Marc Bonneau <pierremarc_999@hotmail.com>
+Installed-Size: 333 Ko
+Filename: debs/com.pmbonneau.ios6bootstrap_1.0_iphoneos-arm.deb
+Size: 66300
+MD5sum: 21b3df6e70a70ec916293c0d530b1931
+SHA1: 75795d7eadac2051d485d3db2c26e2583152e6e3
+SHA256: 0645c4982834bd3d1a5fd8802b9bb8bf5e350d32fcb004cad2ba83066db7770e
+Section: Applications
+Homepage: http://www.pmbonneau.com
+Description: A kloader bootstrap application with an iOS 6 icon. It executes a bash script "iOS6Bootstrap.sh" located in the /usr/bin folder. This script can be edited.
+Author: Pierre-Marc Bonneau <pierremarc_999@hotmail.com>
+Icon: file:///Applications/iOS6Bootstrap.app/AppIcon57x57.png
+Name: iOS 6 Bootstrap
+
 Package: com.skyglow.weatherx
 Version: 3.3
 Architecture: iphoneos-arm
@@ -287,6 +359,26 @@ Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
 
+Package: kloader
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: axi0mX
+Depends: firmware (>= 4.0)
+Filename: debs/kloader_1.0.2_iphoneos-arm.deb
+Size: 12486
+MD5sum: fef541ee1d6b691b4e6b6b7f9b03c938
+SHA1: da518309bf316682f32d8d644413598902016c2d
+SHA256: a472328bf6e1d110b2a042679bce73a36a983f34e760fb4c0161c6f2dbbd0347
+Section: System
+Priority: optional
+Homepage: https://github.com/axi0mX/ios-kexec-utils/blob/master/kloader.c
+Description: NEW IMPROVED KLOADER
+ armv7 support for iOS 4.0-9.3.5 (requires tfp0 kernel patch)
+ arm64 support for iOS 7.0-8.4.1 (requires tfp0 kernel patch and patched LLB/iBoot/iBSS/iBEC)
+ will automatically wake up device after 2 seconds (no button press required, should work 99.9% of the time)
+Author: winocm, xerub, axi0mX
+Name: kloader
+
 Package: moe.yzu.veterishelper
 Version: 1.0.0-53+debug
 Architecture: iphoneos-arm
@@ -302,6 +394,23 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Stella Diaz (electimon
 Name: Veteris Helper
+
+Package: org.jyvee8games.itunesfix
+Version: 0.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com>
+Installed-Size: 464
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Filename: debs/org.jyvee8games.itunesfix_0.1-5+debug_iphoneos-arm.deb
+Size: 95028
+MD5sum: cb7ae2018934af5c4084da671940dc3b
+SHA1: f2e10f114eebcc06a18bd736e584d03e61e5695b
+SHA256: ed878b9e364e8d62977b98fd928d5b9c3d6b3940b929cc5af5c547a15447a80d
+Section: Tweaks
+Description: A fix for the iOS 7 AppStore! credits to bag.xml and requis for the oringinal iTunesStoreX tweak
+Author: Jyvee <jyveeanimate@jyveegames.org>
+Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
+Name: iTunesStoreX7 (BETA)
 
 Package: vn.gsm.auxo.org
 Version: 1.4-2
