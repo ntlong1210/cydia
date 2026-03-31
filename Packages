@@ -350,7 +350,7 @@ Version: 2.0.4
 Architecture: iphoneos-arm
 Maintainer: KJCracks <unknown@unknown.com>
 Depends: firmware (>= 6.0), firmware (<= 10.3.4)
-Filename: debs/com.kjcracks.clutch_2.0.4_iphoneos-arm.deb
+Filename: debs/tomkids.clutch_2.0.4_iphoneos-arm.deb
 Size: 457648
 MD5sum: f87af3b9bb9d7c69c5a5b6290697a9b3
 SHA1: ec6feae66de70bd39a1bbedea50b13dce5520720
@@ -470,7 +470,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis
 Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader, com.skyglow.stocksx
 Conflicts: com.ixmoe.1pwn.weatherx
-Filename: debs/com.skyglow.weatherx_3.3_iphoneos-arm.deb
+Filename: debs/tomkids.weatherx_3.3_iphoneos-arm.deb
 Size: 84036
 MD5sum: f5d4e11562f8f9a2fbc8d5e724d599e4
 SHA1: c715375fe0320a048a678c81ebce34d44c229ffc
