@@ -654,6 +654,27 @@ Description: A command-line system information tool written in bash 3.2+ from ht
 Author: dylanaraps
 Name: neofetch
 
+Package: org.altervista.exilecom.icleaner
+Version: 7.10.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 8217
+Pre-Depends: firmware (>= 4.0), apt | apt7, findutils
+Filename: debs/org.altervista.exilecom.icleaner_7.10.0_iphoneos-arm.deb
+Size: 441104
+MD5sum: 29d73934c5c331be1b0cfa159d5e053c
+SHA1: b2e41272a5a920687ef578706315d11c2f226980
+SHA256: 911a7c75dddde1f6d0c7ca35a2f99771d6566f5546926cd0e690d88c4d5ffd78
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Description: The first real iOS system cleanup and management utility
+Tag: purpose::uikit
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Dev: exilecom
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner
+
 Package: org.jyvee8games.itunesfix
 Version: 0.1-5+debug
 Architecture: iphoneos-arm
